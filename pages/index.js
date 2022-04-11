@@ -13,20 +13,20 @@ export default function Home() {
               <form className="shadow-md rounded px-8 pt-6 pb-8 mb-4">
                 <h2 className="text-md text-center text-white font-bold bg-sky-900 rounded-xl p-2 mb-2">ค้นหาโดยรายชื่อ</h2> 
                 <div className="mb-4">
-                  <label className="block text-gray-700 text-sm font-bold mb-2" for="username">
+                  <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="username">
                     Select Name
                   </label>
                   <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="ระบุชื่อ - นามสกุล"/>
                 </div>
 
                 <div className="mb-6">
-                  <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+                  <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">
                     Select ID
                   </label>
                   <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="password" type="text" placeholder="ระบุรหัสนักศึกษา"/>
                 </div>
-                  <div class="flex justify-center">
-                    <button class="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-10 rounded focus:outline-none focus:shadow-outline" type="button">
+                  <div className="flex justify-center">
+                    <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-10 rounded focus:outline-none focus:shadow-outline" type="button">
                       ค้นหา
                     </button>
                 </div>
@@ -36,20 +36,20 @@ export default function Home() {
             <form className="shadow-md rounded px-8 pt-6 pb-8 mb-4">
                 <h2 className="text-md text-center text-white font-bold bg-sky-900 rounded-xl p-2 mb-2">ค้นหาโดยรายชื่อ</h2> 
                 <div className="mb-4">
-                  <label className="block text-gray-700 text-sm font-bold mb-2" for="username">
+                  <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="username">
                     Select Name
                   </label>
                   <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="ระบุชื่อ - นามสกุล"/>
                 </div>
 
                 <div className="mb-6">
-                  <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+                  <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">
                     Select ID
                   </label>
                   <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="password" type="text" placeholder="ระบุรหัสนักศึกษา"/>
                 </div>
-                  <div class="flex justify-center">
-                    <button class="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-10 rounded focus:outline-none focus:shadow-outline" type="button">
+                  <div className="flex justify-center">
+                    <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-10 rounded focus:outline-none focus:shadow-outline" type="button">
                       ค้นหา
                     </button>
                 </div>
